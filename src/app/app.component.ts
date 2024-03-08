@@ -5,6 +5,7 @@ import { MeMessageComponent } from './components/chat/messages/me-message/me-mes
 import { TheyMessageComponent } from './components/chat/messages/they-message/they-message.component';
 import { ChatWindowComponent } from './components/chat/chat-window/chat-window.component';
 import { ChatWindowBodyComponent } from './components/chat/chat-window-body/chat-window-body.component';
+import { ContactWindowComponent } from './components/contact/contact-window/contact-window.component';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { ChatWindowBodyComponent } from './components/chat/chat-window-body/chat
   imports: [
     CommonModule, 
     RouterOutlet, 
-    ChatWindowBodyComponent],
+    ChatWindowComponent,
+    ContactWindowComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
