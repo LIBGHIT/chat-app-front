@@ -1,0 +1,19 @@
+.me{
+    background-color: #3398c4;
+    position: relative;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+.me::before{
+    content: '';
+    background-color: #3398c4;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: auto;
+    right: 401px;
+    z-index: 1;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+
+}

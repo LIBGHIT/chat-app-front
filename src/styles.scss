@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+.message{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    max-width: 60%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;         
+}
+
+.message-time{
+    font-size: 12px;
+    color: #b3b3b3;
+    padding: 0;
+    margin: 0 0 0 10px;
+    align-self: flex-end;
+}
+
+p{
+    margin: 0 !important;
+    padding: 0;
+}
+
+.d-contents{
+    display: contents;
+}
