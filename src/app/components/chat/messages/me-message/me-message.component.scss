@@ -1,19 +1,17 @@
-.me{
-    background-color: #3398c4;
-    position: relative;
-    margin-left: 20px;
-    align-self: flex-start;
+.me {
+  background-color: #198754;
+  position: relative;
+  margin-left: 20px;
+  align-self: flex-start;
 }
 
-.me::after{
-    content: '';
-    background-color: #3398c4;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 10px;
-    left: -12px;
-    z-index: 1;
-    clip-path: polygon(100% 0, 0 100%, 100% 100%);
-
+.me::after {
+  content: "";
+  background-color: #198754;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: -12px;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }

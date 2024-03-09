@@ -1,26 +1,27 @@
-.chat-footer{
-    height: fit-content;
+.chat-footer {
+  height: fit-content;
+  align-items: end !important;
+  padding: 0 5px 5px 0;
 }
 
-.fa-send-icon{
-    height: 50px;
-    aspect-ratio: 1/1;
-    margin: 4px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0f3c41;
-    color: white;
+.fa-send-icon {
+  height: 50px;
+  aspect-ratio: 1/1;
+  margin: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f3c41;
+  color: white;
 }
 
-.message-area{
-    resize: none;
-    overflow: hidden;
-    border-radius: 5px;
-    height: 52px;
-    min-height: 52px;
-    max-height: 120px;
+.message-area {
+  resize: none;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 52px;
+  min-height: 52px;
+  max-height: 120px;
+  margin: 0 5px !important;
 }
-
-

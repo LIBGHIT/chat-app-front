@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -9,72 +10,71 @@ html, body {
   background-color: rgb(52, 114, 123) !important;
 }
 html {
-    scrollbar-width: none ;
-  }
+  scrollbar-width: none;
+}
 
 /* width */
 ::-webkit-scrollbar {
-    width: 4px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #333333; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #051213; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #051213; 
-  }
+  width: 4px;
+}
 
-.message{
-    padding: 10px;
-    margin: 10px;
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #051213;
     border-radius: 10px;
-    color: white;
-    max-width: 60%;
-    word-wrap: break-word;
-    display: flex;
-    flex-direction: column;         
 }
 
-.message-time{
-    font-size: 12px;
-    color: #b3b3b3;
-    padding: 0;
-    margin: 0 0 0 10px;
-    align-self: flex-end;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #051213;
 }
 
-p{
-    margin: 0 !important;
-    padding: 0;
+.message {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  max-width: 60%;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
 }
 
-.d-contents{
-    display: contents;
+.message-time {
+  font-size: 12px;
+  color: #b3b3b3;
+  padding: 0;
+  margin: 0 0 0 10px;
+  align-self: flex-end;
 }
 
-.user-img{
-    height: 60px !important;
-    width: 60px !important;
-    margin-right: 20px;
-    border-radius: 50%;
-    background-color: blue;
-}
-.header{
-    height: 500px;
+p {
+  margin: 0 !important;
+  padding: 0;
 }
 
-.c-green{
-    color: rgb(15, 232, 15);
+.d-contents {
+  display: contents;
 }
 
-.scroll-shape{
-    scrollbar-width: 4px;
+.user-img {
+  height: 60px !important;
+  width: 60px !important;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: blue;
 }
+.header {
+  height: 500px;
+}
+
+.c-green {
+  color: rgb(15, 232, 15);
+}
+
+
