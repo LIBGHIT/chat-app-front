@@ -1,5 +1,18 @@
 .b-container{
-    background-color: rgb(255, 255, 255);
+    background-color: #051213;
     border-radius: 5px;
-    padding: 10px;
+    max-width: 1000px;
+    padding: 1px;
+    box-shadow: black 0px 0px 10px;
+    color: #fff;
+}
+
+.chat-window{
+    border-left: black 1px solid;
+    width: 600px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.contact-window{
+    flex: 1;
 }

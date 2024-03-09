@@ -8,6 +8,29 @@ html, body {
   overflow: hidden;
   background-color: rgb(52, 114, 123) !important;
 }
+html {
+    scrollbar-width: none ;
+  }
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333333; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #051213; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #051213; 
+  }
 
 .message{
     padding: 10px;
@@ -50,4 +73,8 @@ p{
 
 .c-green{
     color: rgb(15, 232, 15);
+}
+
+.scroll-shape{
+    scrollbar-width: 4px;
 }
