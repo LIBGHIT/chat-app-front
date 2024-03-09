@@ -5,14 +5,14 @@
     align-self: flex-start;
 }
 
-.me::before{
+.me::after{
     content: '';
     background-color: #3398c4;
     width: 20px;
     height: 20px;
     position: absolute;
-    bottom: auto;
-    right: 401px;
+    top: 10px;
+    left: -12px;
     z-index: 1;
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
 

@@ -1,0 +1,27 @@
+.chat-footer{
+    background-color: red;
+    height: fit-content;
+}
+
+.fa-send-icon{
+    height: 50px;
+    aspect-ratio: 1/1;
+    margin: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+}
+
+.message-area{
+    resize: none;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 52px;
+    min-height: 52px;
+    max-height: 120px;
+}
+
+

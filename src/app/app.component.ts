@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { MeMessageComponent } from './components/chat/messages/me-message/me-message.component';
-import { TheyMessageComponent } from './components/chat/messages/they-message/they-message.component';
 import { ChatWindowComponent } from './components/chat/chat-window/chat-window.component';
-import { ChatWindowBodyComponent } from './components/chat/chat-window-body/chat-window-body.component';
 import { ContactWindowComponent } from './components/contact/contact-window/contact-window.component';
 
 @Component({
